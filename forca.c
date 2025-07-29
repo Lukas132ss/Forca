@@ -26,7 +26,7 @@ void mostrar_estado(char exibicao[], char usadas[], int tentativas) {
     printf("Tentativas restantes: %d\n", tentativas);
     printf("Letras usadas: ");
     for (size_t i = 0; i < strlen(usadas); i++) {
-        printf("%c d", usadas[i]);
+        printf("%c ", usadas[i]);
     }
     printf("\n\n");
 }
